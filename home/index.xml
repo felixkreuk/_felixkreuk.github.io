@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Homes on Academic</title>
+    <title>Homes on Felix Kreuk</title>
     <link>https://felixkreuk.github.io/home/</link>
-    <description>Recent content in Homes on Academic</description>
+    <description>Recent content in Homes on Felix Kreuk</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
@@ -18,17 +18,7 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://felixkreuk.github.io/home/about/</guid>
-      <description>Biography Lena Smith is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet.</description>
-    </item>
-    
-    <item>
-      <title>Selected Publications</title>
-      <link>https://felixkreuk.github.io/home/publications_selected/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
-      
-      <guid>https://felixkreuk.github.io/home/publications_selected/</guid>
-      <description></description>
+      <description>Biography My name is Felix Kreuk. I am a Computer-Science Masters student at the Bar-Ilan University under the supervision of Dr. Joseph Keshet. My research interests are in machine-learning, deep-learning and their applications in speech processing.</description>
     </item>
     
     <item>
@@ -41,29 +31,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristiq
     </item>
     
     <item>
-      <title>Recent &amp; Upcoming Talks</title>
-      <link>https://felixkreuk.github.io/home/talks/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://felixkreuk.github.io/home/talks/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Recent Posts</title>
       <link>https://felixkreuk.github.io/home/posts/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://felixkreuk.github.io/home/posts/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Projects</title>
-      <link>https://felixkreuk.github.io/home/projects/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://felixkreuk.github.io/home/projects/</guid>
       <description></description>
     </item>
     

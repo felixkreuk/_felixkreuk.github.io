@@ -32,8 +32,7 @@
     
     <url>
     
-      <loc>https://felixkreuk.github.io/</loc>
-      <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+      <loc>https://felixkreuk.github.io/categories/</loc>
       <priority>0</priority>
     </url>
     
@@ -42,7 +41,8 @@
     
     <url>
     
-      <loc>https://felixkreuk.github.io/categories/</loc>
+      <loc>https://felixkreuk.github.io/</loc>
+      <lastmod>2016-04-20T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
