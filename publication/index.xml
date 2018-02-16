@@ -12,5 +12,23 @@
 	<atom:link href="https://felixkreuk.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Adversarial Examples on Discrete Sequences for Beating Whole-Binary Malware Detection</title>
+      <link>https://felixkreuk.github.io/publication/malware-detection-paper-2018/</link>
+      <pubDate>Fri, 16 Feb 2018 19:55:04 +0200</pubDate>
+      
+      <guid>https://felixkreuk.github.io/publication/malware-detection-paper-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fooling End-to-end Speaker Verification by Adversarial Examples</title>
+      <link>https://felixkreuk.github.io/publication/speaker-verification-paper-2017/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://felixkreuk.github.io/publication/speaker-verification-paper-2017/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
