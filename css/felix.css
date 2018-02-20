@@ -1095,7 +1095,7 @@ footer a#back_to_top i {
 }
 
 .navbar-default {
-  background: black; /* background: {{ .Get "menu_primary" }}; */
+  background: black;
   box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.11)
 }
 
