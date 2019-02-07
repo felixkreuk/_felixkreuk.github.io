@@ -84,6 +84,7 @@
             </p>            
             <br><center><img src="steg_model.png" alt="Italian Trulli" width="500px"></center>
             <br>
+
           </div>
         </div>
       </div>
@@ -289,41 +290,41 @@
                   <tr>
                     <th class="tg-oe15">
                         <audio controls>
-                          <source src="samples/3msg/normal/carrier_orig.wav" type="audio/mpeg">
+                          <source src="samples/1/carrier_orig.wav" type="audio/mpeg">
                         Your browser does not support the audio element.
                         </audio>
                     </th>
                     <th class="tg-oe15">
                         <audio controls>
-                          <source src="samples/3msg/normal/carrier_embedded.wav" type="audio/mpeg">
+                          <source src="samples/1/carrier_embedded.wav" type="audio/mpeg">
                         Your browser does not support the audio element.
                         </audio>
                     </th>
                     <th class="tg-oe15">
                         <audio controls>
-                          <source src="samples/3msg/normal/msg_orig_1.wav" type="audio/mpeg">
+                          <source src="samples/1/msg_orig.wav" type="audio/mpeg">
                         Your browser does not support the audio element.
                         </audio></br>
                         <audio controls>
-                          <source src="samples/3msg/normal/msg_orig_2.wav" type="audio/mpeg">
+                          <source src="samples/1/msg_orig.wav" type="audio/mpeg">
                         Your browser does not support the audio element.
                         </audio></br>
                         <audio controls>
-                          <source src="samples/3msg/normal/msg_orig_3.wav" type="audio/mpeg">
+                          <source src="samples/1/msg_orig.wav" type="audio/mpeg">
                         Your browser does not support the audio element.
                         </audio>
                     </th>
                     <th class="tg-oe15">
                         <audio controls>
-                          <source src="samples/3msg/normal/msg_recovered_1.wav" type="audio/mpeg">
+                          <source src="samples/1/msg_recovered.wav" type="audio/mpeg">
                         Your browser does not support the audio element.
                         </audio></br>
                         <audio controls>
-                          <source src="samples/3msg/normal/msg_recovered_2.wav" type="audio/mpeg">
+                          <source src="samples/1/msg_recovered.wav" type="audio/mpeg">
                         Your browser does not support the audio element.
                         </audio></br>
                         <audio controls>
-                          <source src="samples/3msg/normal/msg_recovered_3.wav" type="audio/mpeg">
+                          <source src="samples/1/msg_recovered.wav" type="audio/mpeg">
                         Your browser does not support the audio element.
                         </audio>
                     </th>
@@ -331,41 +332,41 @@
                   <tr>
                     <th class="tg-oe15">
                         <audio controls>
-                          <source src="samples/3msg/flip/carrier_orig.wav" type="audio/mpeg">
+                          <source src="samples/1/carrier_orig.wav" type="audio/mpeg">
                         Your browser does not support the audio element.
                         </audio>
                     </th>
                     <th class="tg-oe15">
                         <audio controls>
-                          <source src="samples/3msg/flip/carrier_embedded.wav" type="audio/mpeg">
+                          <source src="samples/1/carrier_embedded.wav" type="audio/mpeg">
                         Your browser does not support the audio element.
                         </audio>
                     </th>
                     <th class="tg-oe15">
                         <audio controls>
-                          <source src="samples/3msg/flip/msg_orig_1.wav" type="audio/mpeg">
+                          <source src="samples/1/msg_orig.wav" type="audio/mpeg">
                         Your browser does not support the audio element.
                         </audio></br>
                         <audio controls>
-                          <source src="samples/3msg/flip/msg_orig_2.wav" type="audio/mpeg">
+                          <source src="samples/1/msg_orig.wav" type="audio/mpeg">
                         Your browser does not support the audio element.
                         </audio></br>
                         <audio controls>
-                          <source src="samples/3msg/flip/msg_orig_3.wav" type="audio/mpeg">
+                          <source src="samples/1/msg_orig.wav" type="audio/mpeg">
                         Your browser does not support the audio element.
                         </audio>
                     </th>
                     <th class="tg-oe15">
                         <audio controls>
-                          <source src="samples/3msg/flip/msg_recovered_1.wav" type="audio/mpeg">
+                          <source src="samples/1/msg_recovered.wav" type="audio/mpeg">
                         Your browser does not support the audio element.
                         </audio></br>
                         <audio controls>
-                          <source src="samples/3msg/flip/msg_recovered_2.wav" type="audio/mpeg">
+                          <source src="samples/1/msg_recovered.wav" type="audio/mpeg">
                         Your browser does not support the audio element.
                         </audio></br>
                         <audio controls>
-                          <source src="samples/3msg/flip/msg_recovered_3.wav" type="audio/mpeg">
+                          <source src="samples/1/msg_recovered.wav" type="audio/mpeg">
                         Your browser does not support the audio element.
                         </audio>
                     </th>
@@ -382,57 +383,57 @@
                   <tr>
                     <th class="tg-oe15">
                         <audio controls>
-                          <source src="samples/5msg/normal/carrier_orig.wav" type="audio/mpeg">
+                          <source src="samples/1/carrier_orig.wav" type="audio/mpeg">
                         Your browser does not support the audio element.
                         </audio>
                     </th>
                     <th class="tg-oe15">
                         <audio controls>
-                          <source src="samples/5msg/normal/carrier_embedded.wav" type="audio/mpeg">
+                          <source src="samples/1/carrier_embedded.wav" type="audio/mpeg">
                         Your browser does not support the audio element.
                         </audio>
                     </th>
                     <th class="tg-oe15">
                         <audio controls>
-                          <source src="samples/5msg/normal/msg_orig_1.wav" type="audio/mpeg">
+                          <source src="samples/1/msg_orig.wav" type="audio/mpeg">
                         Your browser does not support the audio element.
                         </audio></br>
                         <audio controls>
-                          <source src="samples/5msg/normal/msg_orig_2.wav" type="audio/mpeg">
+                          <source src="samples/1/msg_orig.wav" type="audio/mpeg">
                         Your browser does not support the audio element.
                         </audio></br>
                         <audio controls>
-                          <source src="samples/5msg/normal/msg_orig_3.wav" type="audio/mpeg">
+                          <source src="samples/1/msg_orig.wav" type="audio/mpeg">
                         Your browser does not support the audio element.
                         </audio></br>
                         <audio controls>
-                          <source src="samples/5msg/normal/msg_orig_4.wav" type="audio/mpeg">
+                          <source src="samples/1/msg_orig.wav" type="audio/mpeg">
                         Your browser does not support the audio element.
                         </audio></br>
                         <audio controls>
-                          <source src="samples/5msg/normal/msg_orig_5.wav" type="audio/mpeg">
+                          <source src="samples/1/msg_orig.wav" type="audio/mpeg">
                         Your browser does not support the audio element.
                         </audio>
                     </th>
                     <th class="tg-oe15">
                         <audio controls>
-                          <source src="samples/5msg/normal/msg_recovered_1.wav" type="audio/mpeg">
+                          <source src="samples/1/msg_orig.wav" type="audio/mpeg">
                         Your browser does not support the audio element.
                         </audio></br>
                         <audio controls>
-                          <source src="samples/5msg/normal/msg_recovered_2.wav" type="audio/mpeg">
+                          <source src="samples/1/msg_orig.wav" type="audio/mpeg">
                         Your browser does not support the audio element.
                         </audio></br>
                         <audio controls>
-                          <source src="samples/5msg/normal/msg_recovered_3.wav" type="audio/mpeg">
+                          <source src="samples/1/msg_recovered.wav" type="audio/mpeg">
                         Your browser does not support the audio element.
                         </audio></br>
                         <audio controls>
-                          <source src="samples/5msg/normal/msg_recovered_4.wav" type="audio/mpeg">
+                          <source src="samples/1/msg_recovered.wav" type="audio/mpeg">
                         Your browser does not support the audio element.
                         </audio></br>
                         <audio controls>
-                          <source src="samples/5msg/normal/msg_recovered_5.wav" type="audio/mpeg">
+                          <source src="samples/1/msg_recovered.wav" type="audio/mpeg">
                         Your browser does not support the audio element.
                         </audio>
                     </th>
@@ -440,65 +441,46 @@
                   <tr>
                     <th class="tg-oe15">
                         <audio controls>
-                          <source src="samples/5msg/flip/carrier_orig.wav" type="audio/mpeg">
+                          <source src="samples/1/carrier_orig.wav" type="audio/mpeg">
                         Your browser does not support the audio element.
                         </audio>
                     </th>
                     <th class="tg-oe15">
                         <audio controls>
-                          <source src="samples/5msg/flip/carrier_embedded.wav" type="audio/mpeg">
+                          <source src="samples/1/carrier_embedded.wav" type="audio/mpeg">
                         Your browser does not support the audio element.
                         </audio>
                     </th>
                     <th class="tg-oe15">
                         <audio controls>
-                          <source src="samples/5msg/flip/msg_orig_1.wav" type="audio/mpeg">
+                          <source src="samples/1/msg_orig.wav" type="audio/mpeg">
                         Your browser does not support the audio element.
                         </audio></br>
                         <audio controls>
-                          <source src="samples/5msg/flip/msg_orig_2.wav" type="audio/mpeg">
+                          <source src="samples/1/msg_orig.wav" type="audio/mpeg">
                         Your browser does not support the audio element.
                         </audio></br>
                         <audio controls>
-                          <source src="samples/5msg/flip/msg_orig_3.wav" type="audio/mpeg">
-                        Your browser does not support the audio element.
-                        </audio></br>
-                        <audio controls>
-                          <source src="samples/5msg/flip/msg_orig_4.wav" type="audio/mpeg">
-                        Your browser does not support the audio element.
-                        </audio></br>
-                        <audio controls>
-                          <source src="samples/5msg/flip/msg_orig_5.wav" type="audio/mpeg">
+                          <source src="samples/1/msg_orig.wav" type="audio/mpeg">
                         Your browser does not support the audio element.
                         </audio>
                     </th>
                     <th class="tg-oe15">
                         <audio controls>
-                          <source src="samples/5msg/flip/msg_recovered_1.wav" type="audio/mpeg">
+                          <source src="samples/1/msg_recovered.wav" type="audio/mpeg">
                         Your browser does not support the audio element.
                         </audio></br>
                         <audio controls>
-                          <source src="samples/5msg/flip/msg_recovered_2.wav" type="audio/mpeg">
+                          <source src="samples/1/msg_recovered.wav" type="audio/mpeg">
                         Your browser does not support the audio element.
                         </audio></br>
                         <audio controls>
-                          <source src="samples/5msg/flip/msg_recovered_3.wav" type="audio/mpeg">
-                        Your browser does not support the audio element.
-                        </audio></br>
-                        <audio controls>
-                          <source src="samples/5msg/flip/msg_recovered_4.wav" type="audio/mpeg">
-                        Your browser does not support the audio element.
-                        </audio></br>
-                        <audio controls>
-                          <source src="samples/5msg/flip/msg_recovered_5.wav" type="audio/mpeg">
+                          <source src="samples/1/msg_recovered.wav" type="audio/mpeg">
                         Your browser does not support the audio element.
                         </audio>
                     </th>
                   </tr>
                 </table>
-            <p class="lead" align="justify">
-                Code will be available soon!
-            </p>            
             </center>
           </div>
         </div>
