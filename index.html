@@ -1,626 +1,188 @@
 <!DOCTYPE html>
-<html lang="en-us">
-<head>
+<html lang="en">
+    <head>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="theme" content="hugo-academic">
-  <meta name="generator" content="Hugo 0.36.1" />
-  <meta name="author" content="Felix Kreuk">
+        <!-- Basic Page Needs
+            –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+            <meta charset="utf-8">
+            <title>Felix Kreuk - PhD Candidate of Computer-Science</title>
+            <meta name="Personal site of Felix Kreuk" content="">
+            <meta name="Felix Kreuk" content="">
 
-  
-  
-  
-  
-  <meta name="description" content="felix.kreuk at gmail dot com">
+            <!-- Mobile Specific Metas
+                –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+                <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  
-  <link rel="alternate" hreflang="en-us" href="https://felixkreuk.github.io/">
+                <!-- FONT
+                    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+                    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
 
-  
+                    <!-- CSS
+                        –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+                        <link rel="stylesheet" href="css/normalize.css">
+                        <link rel="stylesheet" href="css/skeleton.css">
+                        <link rel="stylesheet" href="css/badges.css">
+                        <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">-->
 
+                        <!-- Favicon
+                            –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+                            <link rel="icon" type="image/png" href="images/favicon.png">
 
-  
+    </head>
+    <body>
 
-  
-  
-  <meta name="theme-color" content="#0095eb">
-  
-  
-  
-  
-    
-  
-  
-    
-    
-      
-        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
-      
-    
-  
-  
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.1/css/academicons.min.css" integrity="sha512-NThgw3XKQ1absAahW6to7Ey42uycrVvfNfyjqcFNgCmOCQ5AR4AO0SiXrN+8ZtYeappp56lk1WtvjVmEa+VR6A==" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
-  
-  
-  
-  
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
-  
-  <link rel="stylesheet" href="/styles.css">
-  
-  <link rel="stylesheet" href="/css/felix.css">
-  
+        <!-- Primary Page Layout
+            –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+            <div class="strip dark">
+                <div class="container dark">
+                    <div class="row">
+                        <div class="three columns">
+                            <a href="https://ibb.co/Jxsrgtn"><img class="u-max-full-width" src="https://i.ibb.co/TKgPd2c/imageedit-2-2845677014.gif" alt="imageedit-2-2845677014" border="0"></a>
+                        </div>
+                        <div class="nine columns">
+                            <h1 style="margin-bottom: 0%">Felix Kreuk</h1>
+                            <h5>PhD Candidate, Computer-Science Department, Bar-Ilan</h5>
+                            <p>My name is Felix Kreuk. I am a Computer-Science PhD candidate at Bar-Ilan University
+                            under the supervision of Prof. Joseph Keshet. My research interests are in
+                            machine-learning, deep-learning and their applications in speech processing, spcifically, speech generation.</p>
 
-  
-
-  
-  <link rel="alternate" href="https://felixkreuk.github.io/index.xml" type="application/rss+xml" title="Felix Kreuk">
-  <link rel="feed" href="https://felixkreuk.github.io/index.xml" type="application/rss+xml" title="Felix Kreuk">
-  
-
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="icon" type="image/png" href="/img/icon.png">
-  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
-
-  <link rel="canonical" href="https://felixkreuk.github.io/">
-
-  <meta property="twitter:card" content="summary_large_image">
-  
-  <meta property="og:site_name" content="Felix Kreuk">
-  <meta property="og:url" content="https://felixkreuk.github.io/">
-  <meta property="og:title" content="Felix Kreuk">
-  <meta property="og:description" content="felix.kreuk at gmail dot com">
-  <meta property="og:locale" content="en-us">
-  
-  <meta property="og:updated_time" content="2016-04-20T00:00:00&#43;00:00">
-  
-
-  
-
-  <title>Felix Kreuk</title>
-
-</head>
-<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71" >
-
-<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
-  <div class="container">
-
-    
-    <div class="navbar-header">
-      
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-              data-target=".navbar-collapse" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      
-      <a class="navbar-brand" href="/">Felix Kreuk</a>
-    </div>
-
-    
-    <div class="collapse navbar-collapse">
-
-      
-      
-      <ul class="nav navbar-nav navbar-right">
-        
-
-        
-        
-        
-        
-        
-          
-        
-
-        <li class="nav-item">
-          <a href="/#about" data-target="#about">
-            
-            <span>Home</span>
-            
-          </a>
-        </li>
-
-        
-        
-
-        
-        
-        
-        
-        
-          
-        
-
-        <li class="nav-item">
-          <a href="/#publications" data-target="#publications">
-            
-            <span>Publications</span>
-            
-          </a>
-        </li>
-
-        
-        
-
-        
-        
-        
-        
-        
-          
-        
-
-        <li class="nav-item">
-          <a href="/files/cv.pdf" data-target="files/cv.pdf">
-            
-            <span>CV</span>
-            
-          </a>
-        </li>
-
-        
-        
-
-        
-        
-        
-        
-        
-          
-        
-
-        <li class="nav-item">
-          <a href="/#teaching" data-target="#teaching">
-            
-            <span>Teaching</span>
-            
-          </a>
-        </li>
-
-        
-        
-
-        
-        
-        
-        
-        
-          
-        
-
-        <li class="nav-item">
-          <a href="/#contact" data-target="#contact">
-            
-            <span>Contact</span>
-            
-          </a>
-        </li>
-
-        
-        
-      
-
-      
-      </ul>
-
-    </div>
-  </div>
-</nav>
-
-
-
-<span id="homepage" style="display: none"></span>
-
-
-  
-
-
-
-
-
-  
-  
-  
-  <section id="about" class="home-section">
-    <div class="container">
-      
-
-
-
-<div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person" itemref="person-email person-telephone person-address">
-  <div class="col-xs-12 col-md-4">
-    <div id="profile">
-
-      
-      <div class="portrait" style="background-image: url('https://felixkreuk.github.io/img/profile.png');"></div>
-      <meta itemprop="image" content="https://felixkreuk.github.io/img/profile.png">
-      
-
-      <div class="portrait-title">
-        <h2 itemprop="name">Felix Kreuk</h2>
-        <h3 itemprop="jobTitle">felix.kreuk at gmail dot com</h3>
-
-        
-        
-
-        
-        <h3 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
-          
-          <span itemprop="name">Bar-Ilan University</span>
-          
-        </h3>
-        
-      </div>
-
-      <link itemprop="url" href="https://felixkreuk.github.io/">
-
-      <ul class="network-icon" aria-hidden="true">
-        
-        
-        <li>
-          <a itemprop="sameAs" href="mailto:felixkreuk@gmail.com" target="_blank" rel="noopener">
-            <i class="fa fa-envelope big-icon"></i>
-          </a>
-        </li>
-        
-        
-        <li>
-          <a itemprop="sameAs" href="//github.com/felixkreuk" target="_blank" rel="noopener">
-            <i class="fa fa-github big-icon"></i>
-          </a>
-        </li>
-        
-      </ul>
-
-    </div>
-  </div>
-  <div class="col-xs-12 col-md-8" itemprop="description">
-
-    
-
-<h1 id="biography">Biography</h1>
-
-<p>My name is Felix Kreuk. I am a Computer-Science Master&rsquo;s student at the Bar-Ilan University under the supervision of Dr. Joseph Keshet. My research interests are in machine-learning, deep-learning and their applications in speech processing.</p>
-
-
-    <div class="row">
-
-      
-      <div class="col-sm-5">
-        <h3>Interests</h3>
-        <ul class="ul-interests">
-          
-          <li>Deep Learning</li>
-          
-          <li>Machine Learning</li>
-          
-          <li>Speech Processing</li>
-          
-        </ul>
-      </div>
-      
-
-      
-      <div class="col-sm-7">
-        <h3>Education</h3>
-        <ul class="ul-edu fa-ul">
-          
-          <li>
-            <i class="fa-li fa fa-graduation-cap"></i>
-            <div class="description">
-              <p class="course">MSc in Computer Science, 2018</p>
-              <p class="institution">Bar-Ilan University</p>
+                            <a class="button button-small" href="#">Github »</a>
+                            <a class="button button-small" href="#">Google Scholar »</a>
+                            <a class="button button-small" href="#">CV »</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </li>
-          
-          <li>
-            <i class="fa-li fa fa-graduation-cap"></i>
-            <div class="description">
-              <p class="course">BSc in Computer Science, 2016</p>
-              <p class="institution">Bar-Ilan University</p>
+
+            <div class="strip">
+                <div class="container">
+                    <div class="row">
+                        <div class="three columns">
+                            <h5>News</h5>
+                        </div>
+                        <div class="nine columns">
+                            02/2019 - Started a research internship at <strong>Microsoft, Israel</strong>.<br>
+                            11/2018 - Paper accepted to <strong>SECML 2018</strong>: Workshop on Security in Machine Learning.<br>
+                            02/2018 - Paper accepted to <strong>ICASSP 2018</strong>.
+                        </div>
+                    </div>
+                </div>
             </div>
-          </li>
-          
-        </ul>
-      </div>
-      
 
-    </div>
-  </div>
-</div>
-
-    </div>
-  </section>
-  
-
-  
-  
-  
-  <section id="publications" class="home-section">
-    <div class="container">
-      
-
-
-
-
-<div class="row">
-  <div class="col-xs-12 col-md-4 section-heading">
-    <h1>Publications</h1>
-    
-    
-  </div>
-  <div class="col-xs-12 col-md-8">
-    
-
-    
-      
-    
-
-    
-
-    
-    
-      
-        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-  <a href="https://felixkreuk.github.io/publication/malware-detection-paper-2018/" itemprop="name">Adversarial Examples on Discrete Sequences for Beating Whole-Binary Malware Detection</a>
-  <div itemprop="author">
-    Felix Kreuk, Assi Barak, Shir Aviv-Reuven, Moran Baruch, Benny Pinkas, Joseph Keshet</div>
-  <p>
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/abs/1802.04528" target="_blank" rel="noopener">
-  Preprint
-</a>
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/pdf/1802.04528" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</p>
-</div>
-
-      
-    
-      
-        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-  <a href="https://felixkreuk.github.io/publication/speaker-verification-paper-2017/" itemprop="name">Fooling End-to-end Speaker Verification by Adversarial Examples</a>
-  <div itemprop="author">
-    Felix Kreuk, Yossi Adi, Moustapha Cisse, Joseph Keshet</div>
-  <p>
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/abs/1801.03339" target="_blank" rel="noopener">
-  Preprint
-</a>
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/pdf/1801.03339" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</p>
-</div>
-
-      
-    
-
-  </div>
-</div>
-
-    </div>
-  </section>
-  
-
-  
-  
-  
-  <section id="teaching" class="home-section">
-    <div class="container">
-      
-
-
-<div class="row">
-  
-  <div class="col-xs-12 col-md-4 section-heading">
-    <h1>Teaching</h1>
-    
-  </div>
-  <div class="col-xs-12 col-md-8">
-    <p>Into to Machine-Learning</p>
-
-  </div>
-  
-</div>
-
-    </div>
-  </section>
-  
-
-  
-  
-  
-  <section id="contact" class="home-section">
-    <div class="container">
-      
-
-
-
-
-<div class="row">
-  <div class="col-xs-12 col-md-4 section-heading">
-    <h1>Contact</h1>
-    
-  </div>
-  <div class="col-xs-12 col-md-8">
-    
-
-    <ul class="fa-ul" itemscope>
-
-      
-      <li>
-        <i class="fa-li fa fa-envelope fa-2x" aria-hidden="true"></i>
-        <span id="person-email" itemprop="email"><a href="mailto:felix.kreuk%20at%20gmail%20dot%20com">felix.kreuk at gmail dot com</a></span>
-      </li>
-      
-
-      
-
-      
-
-      
-      <li>
-        <i class="fa-li fa fa-phone fa-2x" aria-hidden="true"></i>
-        <span id="person-telephone" itemprop="telephone"><a href="tel:&#43;972542512728">&#43;972542512728</a></span>
-      </li>
-      
-
-      
-
-      
-
-      
-      <li>
-        <i class="fa-li fa fa-map-marker fa-2x" aria-hidden="true"></i>
-        <span id="person-address" itemprop="address">Building 109, Bar-Ilan University, Ramat-Gan, Israel</span>
-      </li>
-      
-
-      
-
-    </ul>
-
-    
-
-  </div>
-</div>
-
-    </div>
-  </section>
-  
-
-
-
-<footer class="site-footer">
-  <div class="container">
-    <p class="powered-by">
-
-      &copy; 2018 &middot; 
-
-      Powered by the
-      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
-      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
-
-      <span class="pull-right" aria-hidden="true">
-        <a href="#" id="back_to_top">
-          <span class="button_icon">
-            <i class="fa fa-chevron-up fa-2x"></i>
-          </span>
-        </a>
-      </span>
-
-    </p>
-  </div>
-</footer>
-
-
-<div id="modal" class="modal fade" role="dialog">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Cite</h4>
-      </div>
-      <div>
-        <pre><code class="modal-body tex"></code></pre>
-      </div>
-      <div class="modal-footer">
-        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
-          <i class="fa fa-copy"></i> Copy
-        </a>
-        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
-          <i class="fa fa-download"></i> Download
-        </a>
-        <div id="modal-error"></div>
-      </div>
-    </div>
-  </div>
-</div>
-
-    
-
-    
-    
-
-    
-
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
-    
-    
-    <script src="/js/hugo-academic.js"></script>
-    
-
-    
-    
-      
-      
-      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
-      
-
-      
-
-      
-
-      <script>hljs.initHighlightingOnLoad();</script>
-    
-
-    
-    
-
-  </body>
+            <div class="strip">
+                <div class="container">
+                    <div class="row">
+                        <div class="three columns">
+                            <h5>Publications</h5>
+                        </div>
+                        <div class="nine columns">
+                            <div class="row" style="padding-bottom: 10px">
+                                <div class="three columns">
+                                    <img class="framed" src="images/3.png"  class="u-max-full-width"/>
+                                </div>
+                                <div class="nine columns">
+                                    <a href="https://arxiv.org/abs/1902.03083">Hide and Speak: Deep Neural Networks for Speech Steganography</a>.
+                                    <i><strong>Felix Kreuk</strong>, Yossi Adi, Bhiksha Raj, Rita Singh, Joseph Keshet.</i>
+                                    Preprint on arXiv, 2019,
+                                    [<a href="https://arxiv.org/pdf/1902.03083">PDF</a>, <a href="steg_site/main.html">Audio Samples</a>].
+                                    <span class="badge badge-secondary">Preprint</span>
+                                </div>
+                            </div>
+
+                            <div class="row" style="padding-bottom: 10px">
+                                <div class="three columns">
+                                    <img class="framed" src="images/2.png"  class="u-max-full-width"/>
+                                </div>
+                                <div class="nine columns">
+                                    <a href="https://arxiv.org/abs/1802.04528">Deceiving End-to-End Deep Learning Malware Detectors using Adversarial Examples</a>.
+                                    <i><strong>Felix Kreuk</strong>, Assi Barak, Shir Aviv, Moran Baruch, Benny Pinkas, Joseph Keshet.</i>
+                                    Workshop track at 32nd Conference on Neural Information Processing
+                                    Systems (NIPS), Montreal, Canada, 2018,
+                                    [<a href="https://arxiv.org/pdf/1802.04528">PDF</a>].
+                                    <span class="badge badge-warning">Workshop</span>
+                                </div>
+                            </div>
+
+                            <div class="row" style="padding-bottom: 10px">
+                                <div class="three columns">
+                                    <img class="framed" src="images/1.png"  class="u-max-full-width"/>
+                                </div>
+                                <div class="nine columns">
+                                    <a href="https://arxiv.org/abs/1801.03339">Fooling End-to-end Speaker Verification by Adversarial Examples</a>.
+                                    <i><b>Felix Kreuk</b>, Yossi Adi, Moustapha Cisse, Joseph Keshet.</i>
+                                    The 43nd IEEE International Conference in Acoustic, Speech and Signal Processing
+                                    (ICASSP), Alberta, Calgary, Canada, 2018,
+                                    [<a href="https://arxiv.org/pdf/1801.03339">PDF</a>].
+                                    <span class="badge badge-primary">Conference</span>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="strip">
+                <div class="container">
+                    <div class="row">
+                        <div class="three columns">
+                            <h5>Teaching</h5>
+                        </div>
+                        <div class="nine columns">
+                            Speech Processing 89XXX -
+                            <a href="">Piazza link</a>,
+                            <a href="">Course matirial</a>
+                            <br>
+                            Intro to Machine Learning 89511 - 
+                            <a href="">Piazza link</a>,
+                            <a href="">Course matirial</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--<div class="container">-->
+            <!--<div class="row" style="margin-top: 3%">-->
+            <!--<div class="three columns">-->
+            <!--<h5>Education</h5>-->
+            <!--</div>-->
+            <!--<div class="nine columns">-->
+            <!--<ul>-->
+            <!--<li>-->
+            <!--<b>PhD Candidate of Computer-Science</b>-->
+            <!--<ul>-->
+            <!--<li>2018 - Present</li>-->
+            <!--<li>Presedent's award for excellance</li>-->
+            <!--</ul>-->
+            <!--</li>-->
+
+            <!--<li>-->
+            <!--<b>MsC in Computer-Science</b>-->
+            <!--<ul>-->
+            <!--<li>2016 - 2018</li>-->
+            <!--<li>Rector's award for excellance</li>-->
+            <!--<li>GPA 95</li>-->
+            <!--</ul>-->
+            <!--</li>-->
+
+            <!--<li>-->
+            <!--<b>BsC in Computer-Science</b>-->
+            <!--<ul>-->
+            <!--<li>2013 - 2016</li>-->
+            <!--<li>Dean of exeact sciences' award for excellance</li>-->
+            <!--<li>GPA 92</li>-->
+            <!--</ul>-->
+            <!--</li>-->
+            <!--</ul>-->
+            <!--</div>-->
+            <!--</div>-->
+            <!--</div>-->
+
+            <!--<div class="footer">-->
+            <!--Copyright © Felix Kreuk 2019-->
+            <!--</div>-->
+            <!-- End Document
+                –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    </body>
 </html>
-
-
